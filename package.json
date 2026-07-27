@@ -1,0 +1,17 @@
+{
+  "name": "biome-nounnecessaryconditions-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint": "biome lint src",
+    "lint:diagnostics-applied": "biome lint diagnostics-applied",
+    "lint:2.5.3": "pnpm dlx @biomejs/biome@2.5.3 lint src",
+    "typecheck": "tsc -p tsconfig.json",
+    "typecheck:diagnostics-applied": "tsc -p tsconfig.diagnostics-applied.json"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.5.5",
+    "typescript": "7.0.2"
+  },
+  "packageManager": "pnpm@11.16.0"
+}

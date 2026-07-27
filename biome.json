@@ -1,0 +1,9 @@
+{
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "preset": "none",
+      "suspicious": { "noUnnecessaryConditions": "error" }
+    }
+  }
+}
